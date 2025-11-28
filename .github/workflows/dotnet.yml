@@ -4,8 +4,7 @@
 name: Build JsonEncryptor
 
 on:
-  push:
-    branches: [ "master" ]
+  workflow_dispatch:      # manual trigger
 
 jobs:
   build:
