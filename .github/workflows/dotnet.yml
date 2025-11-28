@@ -25,4 +25,7 @@ jobs:
       run: dotnet restore ./JsonEncryptor.csproj
     - name: Build
       run: dotnet build ./JsonEncryptor.csproj --configuration release --no-restore
+    - name: Publish
+      run: dotnet publish ./JsonEncryptor.csproj  --configuration release --no-build --output ./publish
+      
 
