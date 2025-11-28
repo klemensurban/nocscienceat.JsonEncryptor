@@ -26,7 +26,7 @@ jobs:
     - name: Archive build
       run: |
         cd published
-        zip -r ../myapp-win-x64.zip .
+        zip -r ../JsonEncryptor-win-x64.zip .
     - name: Create GitHub Release
       uses: softprops/action-gh-release@v2
       with:
