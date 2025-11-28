@@ -1,0 +1,20 @@
+{
+  "name": "<ask>",
+  "environment": "dev",
+  "database": {
+    "server": "<ask>",
+    "port": 5432,
+    "user": "<ask>",
+    "password": "<ask>"
+  },
+  "features": [
+    {
+      "name": "<ask>",
+      "enabled": true
+    },
+    {
+      "name": "FeatureB",
+      "enabled": "<ask>"
+    }
+  ]
+}
