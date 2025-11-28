@@ -12,13 +12,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-
-    - uses: actions/setup-dotnet@v4
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
       with:
         dotnet-version: '8.0.x'
 
     - name: Restore
-    - run: dotnet restore ./JsonEncryptor.csproj
+      run: dotnet restore ./JsonEncryptor.csproj
 
     - name: Publish Windows x64
       run: dotnet publish ./JsonEncryptor.csproj -c Release -r win-x64 -o published
