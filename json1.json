@@ -14,7 +14,7 @@
     },
     {
       "name": "FeatureB",
-      "enabled": "<ask>"
+      "enabled": false
     }
   ]
 }
