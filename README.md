@@ -2,6 +2,7 @@
 
 A small Commandline tool to create encrypted configuration files (`.encVault`) used by the `nocscienceat.EncryptedConfigurationProvider` library.
 
+
 ## Overview
 
 nocscienceat.EncryptedConfigurationProvider extends `Microsoft.Extensions.Configuration` to support encrypted configuration files (`.encVault`). - see https://github.com/klemensurban/nocscienceat.EncryptedConfigurationProvider for details.
