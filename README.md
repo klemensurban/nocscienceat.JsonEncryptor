@@ -76,7 +76,7 @@ Resulting JSON:
     "Setting2": "Value2"
   }
 }
-Press any Key to continue or ctrl-c to terminate  // (waiting for user input, with "Enter" the Configuration is encrypted and written to encrypted configuration file 98b11214d22b062aff19e3b55edfa0ddc6b61d18.encVault)
+Press Enter to continue or ctrl-c to terminate  // (waiting for user input, with "Enter" the Configuration is encrypted and written to encrypted configuration file 98b11214d22b062aff19e3b55edfa0ddc6b61d18.encVault)
 
 
 Decrypted JSON for verification: // (after decryption of the created .encVault file)
@@ -95,13 +95,13 @@ Decrypted JSON for verification: // (after decryption of the created .encVault f
 
 prompt>dir *.encVault
 
-
  Directory of C:\....
 
 28.11.2025  18:24             1 748 98b11214d22b062aff19e3b55edfa0ddc6b61d18.encVault
                1 File(s)          1 748 bytes
 
 prompt>type 98b11214d22b062aff19e3b55edfa0ddc6b61d18.encVault
+
 GFvV7NZoUgcReUhHEFlUo5J4we2O/F2Tum9IK8pt/L63K6w+rvW6HMzPp5+Agn5ot2KAKfx1oF3U
 b3zNM2we9itxcPfjc3wS3QUbuqUMCwhubfOGaAjLlk3ohWDjrTmWMg+BMTejgtgWGTP0OEP89chs
 GZovFbaBPHuEaLyuxrGAskhOoQ9CZcM2bGt5JE8sdJoZFllnR3icMfkAxlZ+ApzpNW/2TqmWBOI0
